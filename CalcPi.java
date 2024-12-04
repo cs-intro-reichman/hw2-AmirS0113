@@ -10,7 +10,7 @@ public class CalcPi {
                 return;
             }
                 double piApproximation = 0.0;
-                    for (int i = 0; i < terms; i++) {
+                    for (int i = 0; i <= terms; i++) {
                         double term = Math.pow(-1, i) / (2 * i + 1);
                         piApproximation += term;
                     }
